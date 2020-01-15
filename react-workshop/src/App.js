@@ -1,12 +1,15 @@
 import React from 'react';
 import ProductApp from './ProductList'
-import './App.css';
+import CompanyList from './CompanyList'
+import UserList from './UserList'
 
 function App() {
   return (
-    <div >
-      <ProductApp/>
-    </div>
+    <main>
+      <ProductApp />
+      <UserList />
+      <CompanyList />
+    </main>
   );
 }
 
